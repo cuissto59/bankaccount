@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+android:background="@drawable/rounded_input">
+
+    <ImageView
+            android:layout_width="221dp"
+            android:layout_height="229dp" tools:srcCompat="@tools:sample/avatars" android:id="@+id/imageItem"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="32dp"
+            app:layout_constraintVertical_bias="0.335"
+            android:background="@drawable/rounded_input"
+    />
+    <TextView
+            android:text="TextView"
+            android:layout_width="192dp"
+            android:layout_height="63dp" android:id="@+id/Date"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp" android:layout_marginEnd="64dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/Desc" app:layout_constraintVertical_bias="0.487"
+            android:textAlignment="center"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="454dp"
+            android:layout_height="40dp" android:id="@+id/Desc"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.679"
+            android:textAlignment="center"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="198dp"
+            android:layout_height="68dp" android:id="@+id/montant"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.252"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="276dp"
+            android:textAlignment="center"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
